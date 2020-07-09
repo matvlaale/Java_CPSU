@@ -24,7 +24,7 @@ public class StackPlus {
         return sb.toString();
     }
 
-    public static void checkPQueue(PriorityQueue pqueue){
+    public static void checkPQueue(PriorityQueue pqueue) {
         pqueue.insert(1, 20);
         pqueue.info();
         pqueue.insert(2, 40);
@@ -84,6 +84,8 @@ class Stack {
     private int capacity;
     private char[] stack;
     private int head;
+
+    public String name;
 
     public Stack(int capacity) {
         this.capacity = capacity;
