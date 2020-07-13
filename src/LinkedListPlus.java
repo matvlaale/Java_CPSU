@@ -263,4 +263,8 @@ class Cat {
     public boolean equals(Cat cat) {
         return this == cat || cat.age == age && cat.name.equals(name);
     }
+
+    public int getAge() {
+        return age;
+    }
 }
